@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #a0c3d2;
+      }
+      ul > li:hover {
+        background-color: #776b6b;
+        list-style-type: none;
+        border-radius: 20px;
+        transition: all 0.5s;
+      }
+      ul {
+        border-radius: 20px;
+        font-size: 25px;
+      }
+      a {
+        color: #fdf9f9;
+        text-decoration: none;
+      }
+      .item {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 1px;
+      }
+
+      .head {
+        justify-content: center;
+        display: flex;
+        color: rgb(231, 227, 220);
+      }
+
+      a {
+        color: #a0c3d2;
+        margin-top: 4px;
+        text-decoration: none;
+      }
+
+      .image {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+      }
+
+      .img-container {
+        transition: all ease 0.3s;
+        border-radius: 30px;
+        min-height: 400px;
+        background-color: black;
+        min-width: 370px;
+        margin-bottom: -50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+      }
+
+      .container:hover {
+        transition: all ease 0.3s;
+        transform: scale(1.05);
+      }
+
+      .vi-img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+      }
+
+      .container {
+        transition: all ease 0.3s;
+      }
+
+      .button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        background-color: #000;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+      }
+
+      .img-container:hover .button {
+        display: block;
+      }
+
+      .wrapper {
+        display: flex;
+        gap: 9rem;
+        flex-wrap: wrap;
+      }
+
+      .paragra {
+        color: #a0c3d2;
+        text-align: center;
+        margin-top: -20px;
+        z-index: 0;
+        position: relative;
+        font-size: 20px;
+      }
+
+      #container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn-next {
+        background-color: black b;
+        color: #eee9da;
+      }
+      .btn-prev {
+        background-color: black;
+        color: #eee9da;
+      }
+      .btn-page {
+        background-color: black;
+        color: #eee9da;
+      }
+      .btn {
+        background-color: black;
+      }
+      .btn a {
+        color: #a0c3d2;
+      }
+      .btn span {
+        color: #a0c3d2;
+      }
+      .btn:hover {
+        background-color: #d2e3eb;
+      }
+
+      footer {
+        width: 100%;
+        background: black;
+        color: #a0c3d2;
+        position: fixed;
+        bottom: 0;
+        display: block;
+      }
+      footer p {
+        margin-left: 45%;
+      }
+      .container h6 {
+        color: #a0c3d2;
+        text-align: center;
+        margin-top: -17px;
+        z-index: 0;
+        position: relative;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <ul class="item">
+        <li class="item"><a href="index.html">🏠 Home</a></li>
+        <li class="item"><a href="movies.html">💻 Movies</a></li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="img-container">
+          <img
+            class="vi-img"
+            src="C:\Users\Web\Desktop\my-site\9890201_375.png"
+            alt=""
+          />
+          <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        </div>
+        <p class="paragra">Movie Title: Anabel Come Home</p>
+        <h6>Score: 7</h6>
+      </div>
+
+      <div class="container">
+        <div class="img-container">
+          <img
+            class="vi-img"
+            src="C:\Users\Web\Desktop\my-site\۲۰۲۴۰۳۱۴_۱۴۲۵۲۳.jpg"
+            alt=""
+          />
+          <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        </div>
+        <p class="paragra">Movie Title: The Titanic</p>
+        <h6>Score: 9</h6>
+      </div>
+
+      <div class="container">
+        <div class="img-container">
+          <img
+            class="vi-img"
+            src="C:\Users\Web\Desktop\my-site\far8.jpg"
+            alt=""
+          />
+          <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        </div>
+        <p class="paragra">movie Title: The Sniper</p>
+        <h6>Score: 9</h6>
+      </div>
+
+      <div class="container">
+        <div class="img-container">
+          <img
+            class="vi-img"
+            src="C:\Users\Web\Desktop\my-site\Pictures\far4.jpg"
+            alt=""
+          />
+          <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        </div>
+
+        <p class="paragra">movie Title: War Of Night</p>
+        <h6>Score:</h6>
+      </div>
+
+      <div class="container">
+        <div class="img-container">
+          <img
+            class="vi-img"
+            src="C:\Users\Web\Desktop\my-site\poster_81f06906-9e2d-4a92-8f18-240d7ec1b914.jpeg"
+            alt=""
+          />
+          <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        </div>
+        <p class="paragra">Movie title: The buffon</p>
+        <h6>Score: 8</h6>
+      </div>
+
+      <div class="container">
+        <div class="img-container">
+          <img
+            class="vi-img"
+            src="C:\Users\Web\Desktop\my-site\poster_70a0e709-ce36-443c-84bf-8e62702d3e70.jpeg"
+            alt=""
+          />
+          <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        </div>
+        <p class="paragra">Movie title: The Wednesday</p>
+        <h6>score: 8.5</h6>
+      </div>
+    </div>
+    <div id="container">
+      <button class="btn btn-prev"><span><<</span></button>
+      <button class="btn btn-page"><a href="page-netion.html">1</a></button>
+      <button class="btn btn-page"><a href="page-netion.html">2</a></button>
+      <button class="btn btn-page"><a href="page-netion.html">3</a></button>
+      <button class="btn btn-next"><span>>></span></button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>
+      <p>&copy; 2024 Marwa Haidari</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gangena sinema</title>
+
+    <style>
+      body {
+        background-color: #a0c3d2;
+      }
+      ul {
+        border-radius: 20px;
+        font-size: 25px;
+      }
+      a {
+        color: #a0c3d2;
+        text-decoration: none;
+      }
+      ul > li:hover {
+        background-color: #a0c3d2;
+        list-style-type: none;
+        border-radius: 20px;
+        transition: all 0.5s;
+      }
+      .item {
+        background-color: rgb(61, 63, 70);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 1px;
+      }
+
+      .item head {
+        text-decoration: none;
+        width: 80%;
+      }
+
+      .head {
+        justify-content: center;
+        display: flex;
+      }
+
+      .par {
+        justify-content: center;
+        display: flex;
+        color: black;
+      }
+
+      .he-2 {
+        color: black;
+        justify-content: center;
+        display: flex;
+      }
+
+      .top {
+        margin: 3%;
+      }
+
+      .im {
+        width: 100%;
+      }
+
+      .img-container {
+        transition: all ease 0.3s;
+        position: relative;
+      }
+
+      .button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        background-color: #000;
+        color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+      }
+      .img-container:hover .button {
+        display: block;
+      }
+      .images-cotaier {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+      }
+      .image {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin-left: 140px;
+        gap: 40%;
+      }
+
+      .img-container {
+        transition: all ease 0.3s;
+        border-radius: 30px;
+        position: relative;
+        background-color: black;
+        min-height: 370px;
+        min-width: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 0 0.4rem 0;
+      }
+      .img-container:hover {
+        transform: scale(1.05);
+      }
+      .title {
+        color: #a0c3d2;
+      }
+
+      .vi-img {
+        width: 20rem;
+        height: 20rem;
+      }
+      .paragra {
+        color: #333;
+        text-align: center;
+        margin-top: -20px;
+        z-index: 0;
+        position: relative;
+        font-size: 20px;
+      }
+      .image {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+      }
+      footer {
+        width: 100%;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        display: block;
+      }
+      footer p {
+        margin-left: 45%;
+      }
+      .footer {
+        background-color: black;
+        color: #a0c3d2;
+      }
+
+      .wrapper {
+        display: flex;
+        gap: 9rem;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul class="item">
+      <li class="item"><a href="index.html">🏠 Home</a></li>
+      <li class="item"><a href="movies.html">💻 Movies</a></li>
+    </ul>
+
+    <h1 class="head">Outstanding Movie</h1>
+    <img
+      class="im"
+      src="C:\Users\Web\Desktop\my-site\b0427e63-96d0-43f5-8974-dda1745aba60.jpg"
+      width="1340px"
+      height="750px"
+      alt=""
+    />
+
+    <h3 class="par">"John Wick" Its An Action Film</h3>
+    <h2 class="he-2">Click On The Every Video You Want to Watch!</h2>
+
+    <div class="images-cotaier">
+      <div class="img-container">
+        <img
+          class="vi-img"
+          src="C:\Users\Web\Desktop\my-site\Beauty-and-the-Beast.jpg"
+          alt=""
+        />
+
+        <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        <!-- <div class="overlay"></div> -->
+        <h3 class="title">Movie Title: Beauty And The Beast</h3>
+      </div>
+      <div class="img-container">
+        <img
+          class="vi-img"
+          src="C:\Users\Web\Desktop\my-site\Pictures\far9.jpg"
+          alt=""
+        />
+        <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        <h3 class="title">Movie Title: the Sniper</h3>
+      </div>
+      <div class="img-container">
+        <img
+          class="vi-img"
+          src="C:\Users\Web\Desktop\my-site\goosebumps-disney-plus-first-poster.jpg"
+          alt=""
+        />
+        <a class="button" href="movie-detail.html" target="_blank"> 🔼 </a>
+        <div class="overlay"></div>
+        <h3 class="title">Movie Title: Goosebumps</h3>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer class="footer">
+      <p>&copy; 2024 Marwa Haidari</p>
+    </footer>
+  </body>
+</html>

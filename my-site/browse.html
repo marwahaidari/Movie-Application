@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #a0c3d2;
+      }
+      video {
+        height: 590px;
+      }
+
+      ul > li:hover {
+        background-color: #a0c3d2;
+        list-style-type: none;
+        border-radius: 20px;
+        transition: all 0.5s;
+      }
+      ul {
+        border-radius: 20px;
+        font-size: 25px;
+      }
+      a {
+        color: #a0c3d2;
+        text-decoration: none;
+      }
+      .item {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 2px;
+      }
+
+      .item head {
+        text-decoration: none;
+        width: 80%;
+      }
+
+      .item li head:hover {
+        color: black;
+      }
+
+      .video {
+        display: flex;
+        width: 100%;
+      }
+      .div {
+        gap: 0px;
+      }
+      footer {
+        width: 100%;
+        background: black;
+        color: #a0c3d2;
+        position: fixed;
+        bottom: 0;
+        display: block;
+      }
+      footer p {
+        margin-left: 45%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div">
+      <ul class="item">
+        <li class="item"><a href="index.html">🏠 Home</a></li>
+        <li class="item"><a href="movies.html">💻 Movies</a></li>
+      </ul>
+
+      <div>
+        <video controls class="video">
+          <source src="C:\Users\Web\Desktop\my-site\Pictures\far.MP4" />
+        </video>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2024 Marwa Haidari</p>
+    </footer>
+  </body>
+</html>
